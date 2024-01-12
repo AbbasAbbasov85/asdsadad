@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minishop</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header id="head">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid navcont">
+                        <a class="navbar-brand mini" href="#">Minishop</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            <span>MENU</span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav navul">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        CATALOG
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="/form.html">Form</a></li>
+                                        <li><a class="dropdown-item" href="#">Single Product</a></li>
+                                        <li><a class="dropdown-item" href="#">Cart</a></li>
+                                        <li><a class="dropdown-item" href="#">Checkout</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">BLOG</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">CONTACT</a>
+                                </li>
+
+
+                            </ul>
+                            <a href="./basket.html">
+                                <i class="fa-solid fa-cart-shopping">[ 0 ]</i>
+                            </a>
+
+                            <a href="./wishlist.html">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main>
+        <section id="secOne">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="text">
+                            <span>#New Arrival</span>
+                            <h2>New Shoes Winter Collection</h2>
+                            <p>A small river named Duden flows by their place and supplies it with the necessary
+                                regelialia. It is a paradisematic country.</p>
+
+                        </div>
+                        <button>Discover Now</button>
+                    </div>
+                    <div class="col-lg-8">
+
+                        <img src="./assets/scss/img/bg_2.png" alt="">
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="secTwo">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="cr h-100">
+                            <i class="fa-solid fa-business-time"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Free Shipping</h5>
+                                <p class="card-text">Far far away, behind the word mountains, far from the countries
+                                    Vokalia and Consonantia, there live the blind texts.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="cr h-100">
+                            <i class="fa-solid fa-address-book"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Free Shipping</h5>
+                                <p class="card-text">Far far away, behind the word mountains, far from the countries
+                                    Vokalia and Consonantia, there live the blind texts.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="cr h-100">
+                            <i class="fa-brands fa-windows"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Free Shipping</h5>
+                                <p class="card-text">.Far far away, behind the word mountains, far from the countries
+                                    Vokalia and Consonantia, there live the blind texts.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="secTree">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="secText text-center">
+                            <h1>New Shoes Arrival</h1>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section id="fo">
+            <div class="container">
+                <div class="row">
+                    <div id="cart">
+                        <input type="inp" id="inp">
+                        <button id="load">More</button>
+                        <div id="prodacts">
+                       
+                        
+                    </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="secFive">
+            <div class="container">
+                <div class="row">
+
+                </div>
+            </div>
+        </section>
+
+        <section id="secSix">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h1>Follow Us On Instagram</h1>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+        </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-6 g-6" style="padding: 0;margin: 0;">
+        <div class="col">
+          <div class="h-100">
+            <img src="./assets/scss/imgsecsix/gallery-1.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col">
+          <div class="h-100">
+            <img src="./assets/scss/imgsecsix/gallery-2.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col">
+          <div class="h-100">
+            <img src="./assets/scss/imgsecsix/gallery-3.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col">
+            <div class="h-100">
+              <img src="./assets/scss/imgsecsix/gallery-4.jpg" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="h-100">
+              <img src="./assets/scss/imgsecsix/gallery-5.jpg" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="h-100">
+              <img src="./assets/scss/imgsecsix/gallery-6.jpg" class="card-img-top" alt="...">
+            </div>
+          </div>
+
+      </div>
+</div>
+        </section>
+    </main>
+
+
+    <footer class="d-flex justify-content-center align-items-center" style="background-color: black; color: white;width: 100% ; height: 100px;">
+        <p class="text-center">Copyright ©2024 All rights reserved | This template is made with  by Colorlib</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/assets/scss/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
